@@ -1,0 +1,39 @@
+"*":
+  "advanced-new-file":
+    showFilesInAutoComplete: true
+    suggestCurrentFilePath: true
+  "advanced-open-file": {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e42e854c-7ecf-4ac1-b7b9-588596e8d67f"
+  core:
+    packagesWithKeymapsDisabled: []
+    themes: [
+      "one-dark-ui"
+      "wombat-fixed"
+    ]
+  editor:
+    fontSize: 13
+    lineHeight: 1.7
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "51fffb8a-e7da-80df-999b-860e9846b6f5"
+  "file-icons":
+    coloured: false
+  "linter-jscs":
+    onlyConfig: true
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false
