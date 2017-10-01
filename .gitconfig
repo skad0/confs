@@ -1,0 +1,24 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Anton Krichevskii
+	email = mrskadi0@gmail.com
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	p = !git push origin `git branch | grep '* ' | sed 's/* //'`
+	which = !git show `git rev-list --ancestry-path "$1"..dev --merges | tail -1`
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge --skip %f
+	process = git-lfs filter-process --skip
+	required = true
