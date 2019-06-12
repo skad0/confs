@@ -1,0 +1,37 @@
+{
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Roboto Mono",
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.cursorBlinking": "phase",
+    "editor.fontLigatures": true,
+    "editor.renderIndentGuides": true,
+    "editor.lineHeight": 32,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "window.zoomLevel": 0,
+    "editor.renderLineHighlight": "gutter",
+    "git.autofetch": false,
+    "git.enabled": true,
+    "workbench.colorTheme": "Horizon Bold",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#626263"
+    },
+    "workbench.fontAliasing": "antialiased",
+    "files.autoSave": "onFocusChange",
+    "gitlens.advanced.telemetry.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "editor.letterSpacing": 0.8
+}
